@@ -8,6 +8,7 @@
 .content {
   margin: 10px auto;
   width: 700px;
+  border-radius: 2px;
 }
 
 .user-input {
@@ -18,19 +19,23 @@
 }
 
 .name {
-  width: 500px;
+  width: 450px;
   margin:25px auto 5px auto;
   padding: 5px;
   font-size: 90%;
+  border: ridge;
+  border-radius: 2px;
+  border-color: #ff3300;
 }
 
 .submit-btn {
-  width: 500px;
+  width: 450px;
   padding: 5px;
   margin: 5px auto 25px auto;
   background: #ffff33;
-  border: none;
+  border: ridge;
   border-radius: 2px;
+  border-color: #ff3300;
   color: #ff9933;
   font-size: 100%;
 }
